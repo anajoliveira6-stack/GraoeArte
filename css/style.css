@@ -4,6 +4,7 @@
 @import url(./variables.css);
 @import url(./reset.css);
 
+hmtl{font-size: 10px;}
 .content_menu{
     width: 100vw;
     height: 70px ;
@@ -12,20 +13,31 @@
     background-color: var(--color-header-bg) ;
     position: fixed;
     align-items: center;
-    word-wrap: wrap;
     scroll-behavior: smooth;
 }
 
 .content_menu__title{
-font-family: 'Merriweather';
+font-family: var(--font-title);
 color: var(--color-header-text);
+font-size:2rem ;
+display: flex;
+padding: 5px;
+word-wrap: wrap;
 }
 
-.content_menu__navegacao{}
+ /* .content_menu__navegacao{
+    color: var(--color-header-text); */
 
-.content_menu__navegacao--list{display: flex;}
 
-.content_menu__navegacao--list-item{}
 
-.ontent_menu__link{}
+.content_menu__navegacao--list{
+    display: flex; gap: 7px;
+    font-family: var(--font-title);
+    font-size: 1rem;
+} 
+
+
+
+.content_menu__link{ color: var(--color-header-text);
+font-family: var(--font-title);}
 
