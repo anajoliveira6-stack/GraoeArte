@@ -31,7 +31,8 @@ word-wrap: wrap;
 
 
 .content_menu__navegacao--list{
-    display: flex; gap: 7px;
+    display: flex; 
+    gap: 10px;
     font-family: var(--font-title);
     font-size: 1rem;
 } 
@@ -41,3 +42,4 @@ word-wrap: wrap;
 .content_menu__link{ color: var(--color-header-text);
 font-family: var(--font-title);}
 
+.content_menu__navegacao--list:hover{ box-shadow:  var(--shadow-hover);}
